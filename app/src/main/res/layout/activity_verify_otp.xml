@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/home_background"
+    tools:context=".verifyOTP">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:src="@drawable/ic_baseline_close_24"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/otp"
+            android:textSize="100sp"
+            android:fontFamily="@font/abril_fatface"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:textAllCaps="true"
+            android:textAlignment="center"
+            android:includeFontPadding="false"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/verification"
+            android:textSize="24sp"
+            android:fontFamily="@font/abril_fatface"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:textAllCaps="true"
+            android:textAlignment="center"
+            android:includeFontPadding="false"/>
+        <TextView
+            android:layout_marginTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ver_des"
+            android:textSize="16sp"
+            android:fontFamily="@font/mate"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+
+            android:textAlignment="center"
+            android:includeFontPadding="false"/>
+
+
+    </LinearLayout>
+
+</ScrollView>
